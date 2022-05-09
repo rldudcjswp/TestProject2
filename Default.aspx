@@ -21,7 +21,7 @@
         var start = [];
 
         $(document).ready(function () {
-            console.log('a');
+            console.log('b');
             // 데이터
             //getData(leId, srId, gId, tbSc);
 
