@@ -143,7 +143,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="KBOLib.csproj" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
