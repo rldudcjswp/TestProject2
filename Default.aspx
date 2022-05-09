@@ -15,10 +15,6 @@
         var srId = params.get('srId');
         var gId = params.get('gId')
         var tbSc = params.get('tbSc');
-        console.log(leId);
-        console.log(srId);
-        console.log(gId);
-        console.log(tbSc);
 
         var list;
         var total_ab = 0, total_hit = 0, total_rbi = 0, total_run = 0;
