@@ -283,7 +283,6 @@
     <Compile Include="KBOLib\_Util\UserInfoUtil.cs" />
     <Compile Include="KBOLib\_Util\WebUtil.cs" />
     <Compile Include="KBOLib\_Util\XmlSTI.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ws\Common.asmx.cs">
       <DependentUpon>Common.asmx</DependentUpon>
       <SubType>Component</SubType>
@@ -335,6 +334,7 @@
   <ItemGroup>
     <Folder Include="KBOLib\obj\Debug\TempPE\" />
     <Folder Include="KBOLib\obj\Release\TempPE\" />
+    <Folder Include="Properties\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
