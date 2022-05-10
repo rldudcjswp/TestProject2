@@ -120,6 +120,8 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bin\TestProject.dll" />
+    <Content Include="bin\TestProject.pdb" />
     <Content Include="Default.aspx" />
     <Content Include="KBOLib\bin\AjaxControlToolkit.dll" />
     <Content Include="KBOLib\bin\AjaxControlToolkit.resources.dll" />
