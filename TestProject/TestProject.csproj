@@ -121,6 +121,47 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Default.aspx" />
+    <Content Include="KBOLib\bin\AjaxControlToolkit.dll" />
+    <Content Include="KBOLib\bin\AjaxControlToolkit.resources.dll" />
+    <Content Include="KBOLib\bin\Debug\AjaxControlToolkit.dll" />
+    <Content Include="KBOLib\bin\Debug\AjaxControlToolkit.resources.dll" />
+    <Content Include="KBOLib\bin\Debug\KBOLib.dll" />
+    <Content Include="KBOLib\bin\Debug\KBOLib.pdb" />
+    <Content Include="KBOLib\bin\Debug\log4net.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Caching.xml" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.Unity.dll" />
+    <Content Include="KBOLib\bin\Debug\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="KBOLib\bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="KBOLib\bin\KBOLib.dll" />
+    <Content Include="KBOLib\bin\KBOLib.pdb" />
+    <Content Include="KBOLib\bin\log4net.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Caching.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Caching.xml" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.ServiceLocation.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.Unity.dll" />
+    <Content Include="KBOLib\bin\Microsoft.Practices.Unity.Interception.dll" />
+    <Content Include="KBOLib\bin\Newtonsoft.Json.dll" />
+    <Content Include="KBOLib\KBOLib.csproj" />
+    <Content Include="KBOLib\obj\Debug\KBOLib.csproj.CopyComplete" />
+    <Content Include="KBOLib\obj\Debug\KBOLib.csproj.FileListAbsolute.txt" />
+    <Content Include="KBOLib\obj\Debug\KBOLib.csprojAssemblyReference.cache" />
+    <Content Include="KBOLib\obj\Debug\KBOLib.dll" />
+    <Content Include="KBOLib\obj\Debug\KBOLib.pdb" />
+    <Content Include="KBOLib\obj\Release\KBOLib.csproj.CopyComplete" />
+    <Content Include="KBOLib\obj\Release\KBOLib.csproj.FileListAbsolute.txt" />
+    <Content Include="KBOLib\obj\Release\KBOLib.csprojAssemblyReference.cache" />
+    <Content Include="KBOLib\obj\Release\KBOLib.dll" />
+    <Content Include="KBOLib\obj\Release\KBOLib.pdb" />
     <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll" />
     <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml" />
     <Content Include="packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\tools\Roslyn45\csc.exe" />
@@ -193,6 +234,53 @@
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
     <Compile Include="Engine\CommonAction.cs" />
+    <Compile Include="KBOLib\Model\CAbstractDataCol.cs" />
+    <Compile Include="KBOLib\Model\CAbstractDataRow.cs" />
+    <Compile Include="KBOLib\Model\CAbstractDataTable.cs" />
+    <Compile Include="KBOLib\Model\CAbstractDataWrapper.cs" />
+    <Compile Include="KBOLib\Model\CommonDataTable.cs" />
+    <Compile Include="KBOLib\Properties\AssemblyInfo.cs" />
+    <Compile Include="KBOLib\Util\CacheUtil.cs" />
+    <Compile Include="KBOLib\Util\CodeUtil.cs" />
+    <Compile Include="KBOLib\Util\CommonUtil.cs" />
+    <Compile Include="KBOLib\Util\CommonValue.cs" />
+    <Compile Include="KBOLib\Util\DateUtil.cs" />
+    <Compile Include="KBOLib\Util\DBHelper.cs" />
+    <Compile Include="KBOLib\Util\EntryList.cs" />
+    <Compile Include="KBOLib\Util\FileUpLoad.cs" />
+    <Compile Include="KBOLib\Util\InJectionUtil.cs" />
+    <Compile Include="KBOLib\Util\MathUtil.cs" />
+    <Compile Include="KBOLib\Util\MessageCode.cs" />
+    <Compile Include="KBOLib\Util\SecureUtil.cs" />
+    <Compile Include="KBOLib\Util\SVCFileUpLoad.cs" />
+    <Compile Include="KBOLib\Util\UserInfoUtil.cs" />
+    <Compile Include="KBOLib\Util\WebCodeUtil.cs" />
+    <Compile Include="KBOLib\WebUtil\CacheUtil.cs" />
+    <Compile Include="KBOLib\WebUtil\CodeUtil.cs" />
+    <Compile Include="KBOLib\WebUtil\CommonWS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KBOLib\_Util\Baseball.cs" />
+    <Compile Include="KBOLib\_Util\CacheUtil.cs" />
+    <Compile Include="KBOLib\_Util\CInJectionUtil.cs" />
+    <Compile Include="KBOLib\_Util\CodeUtil.cs" />
+    <Compile Include="KBOLib\_Util\CommonUtil.cs" />
+    <Compile Include="KBOLib\_Util\CommonWS.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="KBOLib\_Util\CSecureUtil.cs" />
+    <Compile Include="KBOLib\_Util\DateUtil.cs" />
+    <Compile Include="KBOLib\_Util\ExcelUtil.cs" />
+    <Compile Include="KBOLib\_Util\FileUpLoad.cs" />
+    <Compile Include="KBOLib\_Util\Gzip.cs" />
+    <Compile Include="KBOLib\_Util\IpCheck.cs" />
+    <Compile Include="KBOLib\_Util\ManagerInfoUtil.cs" />
+    <Compile Include="KBOLib\_Util\MessageCode.cs" />
+    <Compile Include="KBOLib\_Util\StaticVariable.cs" />
+    <Compile Include="KBOLib\_Util\SVCFileUpLoad.cs" />
+    <Compile Include="KBOLib\_Util\UserInfoUtil.cs" />
+    <Compile Include="KBOLib\_Util\WebUtil.cs" />
+    <Compile Include="KBOLib\_Util\XmlSTI.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ws\Common.asmx.cs">
       <DependentUpon>Common.asmx</DependentUpon>
@@ -241,6 +329,10 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="KBOLib\obj\Debug\TempPE\" />
+    <Folder Include="KBOLib\obj\Release\TempPE\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
